@@ -1,0 +1,59 @@
+# ======================
+# Dependencias
+# ======================
+node_modules/
+
+# ======================
+# Builds / Compilados
+# ======================
+dist/
+build/
+out/
+
+# ======================
+# TypeScript
+# ======================
+*.tsbuildinfo
+
+# ======================
+# Variables de entorno
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Logs
+# ======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# ======================
+# Coverage / Tests
+# ======================
+coverage/
+
+# ======================
+# IDEs y editores
+# ======================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Sistema Operativo
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Otros
+# ======================
+*.pid
+*.seed
